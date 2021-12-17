@@ -3,6 +3,7 @@
 
 ### OTHER ### 
 builder.bat
+src/config/keys/keys.json
 
 ### Node ###
 # Logs
@@ -127,5 +128,4 @@ dist
 .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/node
-src/config/keys/keys.json
-src/try.js
+
