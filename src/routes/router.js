@@ -27,7 +27,8 @@ router.get('/Stats', (req, res) => {
 })
 
 router.get('/Creditos', (req, res) => {
-    res.render('other/credits')
+     res.render('other/credits')
+    // res.render('comingSoon')
 })
 
 // Comandos
@@ -41,6 +42,27 @@ router.get('/Comandos/Comunes', (req, res) => {
 
 router.get('/Comandos/Welcomes', (req, res) => {
     res.render('commands/welcomes')
+})
+
+router.get('/Comandos/Logs', (req, res) => {
+    res.render('commands/logs')
+})
+
+router.get('/Comandos/Musica', (req, res) => {
+    // res.render('commands/music')
+    res.render('comingSoon')
+})
+
+router.get('/Comandos/Economia', (req, res) => {
+    res.render('commands/economy')
+})
+
+router.get('/Comandos/Rol', (req, res) => {
+    res.render('commands/rol')
+})
+
+router.get('/Comandos/Nsfw', (req, res) => {
+    res.render('commands/nsfw')
 })
 
 module.exports = router;

@@ -9,21 +9,33 @@ footer {
   margin-top: 150px;
 }
 
-.ultimo{
+.marc-logo{
+  height: 300px;
+  width: 300px;
+}
+
+.ultimo {
   margin-bottom: 180px;
 }
 
-.red{
+.red {
   color: red;
 }
 
-.txt-size-min{
+.coming-soon {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.txt-size-min {
   min-height: $height;
 }
 
-// Custom Scrolls 
+// Custom Scrolls
 ::-webkit-scrollbar {
-  width: 0.000010px;
+  width: 0.00001px;
   background: #fff;
 }
 

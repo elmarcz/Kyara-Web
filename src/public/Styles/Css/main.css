@@ -8,12 +8,24 @@ footer {
   margin-top: 150px;
 }
 
+.marc-logo {
+  height: 300px;
+  width: 300px;
+}
+
 .ultimo {
   margin-bottom: 180px;
 }
 
 .red {
   color: red;
+}
+
+.coming-soon {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .txt-size-min {
@@ -66,17 +78,23 @@ footer {
     height: 0.001px;
   }
 
+  .txt-example {
+    height: auto;
+  }
+
   .main-container-about-text-stats {
     display: flex;
     margin-top: 10px;
     width: 100%;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
   .main-container-about-text-stats .stats {
     display: flex;
     height: 20vh;
     width: 20vh;
-    margin-top: 20px;
+    margin-top: 60px;
   }
   .main-container-about-text-stats .stats .title {
     display: flex;
@@ -88,6 +106,10 @@ footer {
   }
 }
 @media (max-width: 853px) {
+  .txt-example {
+    height: auto;
+  }
+
   .main-container-home {
     display: flex;
     align-content: center;
@@ -107,6 +129,25 @@ footer {
     position: relative;
     width: 0.00001px;
     height: 0.001px;
+  }
+
+  .main-container-about-text-stats {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-container-about-text-stats .stats {
+    display: flex;
+    height: 20vh;
+    width: 20vh;
+    margin-top: 60px;
+  }
+  .main-container-about-text-stats .stats .title {
+    display: flex;
+    justify-content: center;
   }
 
   .main-container-about {
