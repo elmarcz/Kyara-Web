@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
-const keys = require('./config/keys/keys.json')
-const uri = process.env.URI || keys.URI
+// const keys = require('./config/keys/keys.json')
+const uri = process.env.URI // || keys.URI
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
