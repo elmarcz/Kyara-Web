@@ -139,6 +139,7 @@ footer {
     align-items: center;
     flex-direction: column;
   }
+  
   .main-container-about-text-stats .stats {
     display: flex;
     height: 20vh;
